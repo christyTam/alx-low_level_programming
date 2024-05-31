@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -32,4 +33,21 @@ int main(void)
 	}
 
 	return (0);
+=======
+#include "main.h"
+
+/**
+* main - tests function that prints if integer is positive or negative
+* Return: 0
+*/
+
+int main(void)
+{
+        int i;
+
+        i = 98;
+        positive_or_negative(i);
+
+        return (0);
+>>>>>>> f5f0aef9f0e22f1346db33d00b3518cfebd0e3a2
 }
